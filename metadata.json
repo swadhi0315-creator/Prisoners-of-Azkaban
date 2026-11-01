@@ -1,0 +1,6 @@
+{
+  "name": "Hogwarts Year Three: The Prisoner of Azkaban",
+  "description": "An immersive, cinematic interactive adventure set during Harry's third year at Hogwarts. Master the Patronus charm, face Lupin's Boggart, ride Buckbeak, explore the Marauder's Map, and unravel the mystery of Sirius Black.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

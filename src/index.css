@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-cinzel {
+    font-family: 'Cinzel', serif;
+  }
+  .font-cinzel-dec {
+    font-family: 'Cinzel Decorative', serif;
+  }
+  .font-garamond {
+    font-family: 'EB Garamond', Georgia, serif;
+  }
+  .font-medieval {
+    font-family: 'MedievalSharp', cursive, serif;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
